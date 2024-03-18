@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CheckoutApp {
-    internal class Ckeckout {
+    public interface ICheckout {
+        void Scan( string item );
+        int GetTotalPrice();
     }
+
 }

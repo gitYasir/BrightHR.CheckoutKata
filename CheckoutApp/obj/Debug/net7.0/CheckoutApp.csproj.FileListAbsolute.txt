@@ -1,0 +1,15 @@
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\bin\Debug\net7.0\CheckoutApp.exe
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\bin\Debug\net7.0\CheckoutApp.deps.json
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\bin\Debug\net7.0\CheckoutApp.runtimeconfig.json
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\bin\Debug\net7.0\CheckoutApp.dll
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\bin\Debug\net7.0\CheckoutApp.pdb
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\CheckoutApp.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\CheckoutApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\CheckoutApp.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\CheckoutApp.AssemblyInfo.cs
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\CheckoutApp.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\CheckoutApp.dll
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\refint\CheckoutApp.dll
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\CheckoutApp.pdb
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\CheckoutApp.genruntimeconfig.cache
+C:\Users\DELL\OneDrive\Desktop\BrightHR\BrightHR\CheckoutApp\obj\Debug\net7.0\ref\CheckoutApp.dll
