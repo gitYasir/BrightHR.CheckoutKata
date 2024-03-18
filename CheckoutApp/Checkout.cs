@@ -24,7 +24,12 @@ namespace CheckoutApp {
 
     public class Checkout : ICheckout {
         private Dictionary<char, ItemPricing> itemPrices;
-        private Dictionary<char, int> scannedItems;
+        public Dictionary<char, int> scannedItems;
+
+        public Checkout( IEnumerable<ItemPricing> pricingRules ) {
+            itemPrices = pricingRules.ToDictionary( rule => rule.SKU );
+            scannedItems = new Dictionary<char, int>();
+        }
 
         public int GetTotalPrice() {
             int totalPrice = 0;
@@ -42,6 +47,7 @@ namespace CheckoutApp {
                     totalPrice += quantity * pricing.UnitPrice;
                 }
             }
+            return totalPrice;
         }
 
         public void Scan( string item ) {
@@ -63,6 +69,5 @@ namespace CheckoutApp {
             }
         }
     }
-
 
 }

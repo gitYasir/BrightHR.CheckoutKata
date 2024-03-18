@@ -1,7 +1,7 @@
 using CheckoutApp;
 using NUnit.Framework;
 
-namespace Checkout.Tests {
+namespace CheckoutTests {
     public class CheckoutTests {
         public class ItemPricingTests {
             [Test]
@@ -29,6 +29,25 @@ namespace Checkout.Tests {
                 Assert.That( itemPricing.UnitPrice, Is.EqualTo( unitPrice ) );
                 Assert.That( itemPricing.SpecialPrice, Is.EqualTo( (0, 0) ) );
             }
+            [Test]
+            public void Scan_Should_Throw_Exception_For_Invalid_Item() {
+                var checkout = new Checkout( new List<ItemPricing>() );
+                string invalidItem = "1";
+
+                Assert.Throws<ArgumentException>( () => checkout.Scan( invalidItem ) );
+            }
+
+            [Test]
+            public void Scan_Should_Increment_Quantity_For_Existing_Item() {
+                var checkout = new Checkout( new List<ItemPricing> { new ItemPricing( 'A', 50 ) } );
+                string item = "A";
+
+                checkout.Scan( item );
+                checkout.Scan( item );
+
+                Assert.That( checkout.scannedItems[ item[ 0 ] ], Is.EqualTo( 2 ) );
+            }
+
         }
     }
 }
