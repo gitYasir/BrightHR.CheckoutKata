@@ -22,5 +22,18 @@ namespace CheckoutApp {
         }
     }
 
+    public class Checkout : ICheckout {
+        private Dictionary<char, ItemPricing> itemPrices;
+        private Dictionary<char, int> scannedItems;
+
+        public int GetTotalPrice() {
+            throw new NotImplementedException();
+        }
+
+        public void Scan( string item ) {
+            throw new NotImplementedException();
+        }
+    }
+
 
 }
