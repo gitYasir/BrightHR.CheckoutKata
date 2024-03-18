@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dDFSpXz5W6fzpSYixDhkXLWyxjG2F/Px61Dg/RVRv7gvzim4lhUixJYehcJ5zZRBgQ/4YQZEkSYSmW3wjR5ynA==",
+  "dgSpecHash": "hTjOcwHtqx63hnpYW1IsAmz/XtJO0k5L00+PFjXXRbSaby9c7QURoaeFQiMECkYfgke/JAABcTr0jiiuKmI6Aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\OneDrive\\Desktop\\BrightHR\\BrightHR\\Checkout.Tests\\Checkout.Tests.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\OneDrive\\Desktop\\BrightHR\\BrightHR\\Checkout.Tests\\CheckoutTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

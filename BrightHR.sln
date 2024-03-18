@@ -5,7 +5,12 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutApp", "CheckoutApp\CheckoutApp.csproj", "{E90F2E69-15A9-4EC4-92C4-0F6D4551F218}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Tests", "Checkout.Tests\Checkout.Tests.csproj", "{E98A8CF6-0065-4F94-BDDC-4F5A03DC1D83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutTests", "Checkout.Tests\CheckoutTests.csproj", "{E98A8CF6-0065-4F94-BDDC-4F5A03DC1D83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B3104BD-20C1-4FD2-8418-743E38A02029}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

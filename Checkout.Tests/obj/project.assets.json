@@ -3978,9 +3978,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\BrightHR\\BrightHR\\Checkout.Tests\\Checkout.Tests.csproj",
-      "projectName": "Checkout.Tests",
-      "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\BrightHR\\BrightHR\\Checkout.Tests\\Checkout.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\BrightHR\\BrightHR\\Checkout.Tests\\CheckoutTests.csproj",
+      "projectName": "CheckoutTests",
+      "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\BrightHR\\BrightHR\\Checkout.Tests\\CheckoutTests.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\BrightHR\\BrightHR\\Checkout.Tests\\obj\\",
       "projectStyle": "PackageReference",
