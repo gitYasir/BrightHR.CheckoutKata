@@ -27,11 +27,40 @@ namespace CheckoutApp {
         private Dictionary<char, int> scannedItems;
 
         public int GetTotalPrice() {
-            throw new NotImplementedException();
+            int totalPrice = 0;
+
+            foreach ( var item in scannedItems ) {
+                var pricing = itemPrices[ item.Key ];
+                int quantity = item.Value;
+
+                if ( pricing.SpecialPrice.Quantity > 0 && quantity >= pricing.SpecialPrice.Quantity ) {
+                    int specialPriceGroups = quantity / pricing.SpecialPrice.Quantity;
+                    int remainingItems = quantity % pricing.SpecialPrice.Quantity;
+                    totalPrice += ( specialPriceGroups * pricing.SpecialPrice.SpecialPrice ) + ( remainingItems * pricing.UnitPrice );
+                }
+                else {
+                    totalPrice += quantity * pricing.UnitPrice;
+                }
+            }
         }
 
         public void Scan( string item ) {
-            throw new NotImplementedException();
+            if ( item.Length != 1 || !char.IsLetter( item[ 0 ] ) ) {
+                throw new ArgumentException( "Invalid item" );
+            }
+
+            char sku = char.ToUpper( item[ 0 ] );
+
+            if ( !itemPrices.ContainsKey( sku ) ) {
+                throw new ArgumentException( $"Item '{sku}' not found in pricing rules" );
+            }
+
+            if ( !scannedItems.ContainsKey( sku ) ) {
+                scannedItems[ sku ] = 1;
+            }
+            else {
+                scannedItems[ sku ]++;
+            }
         }
     }
 
